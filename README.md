@@ -60,7 +60,7 @@ git push
 
 ## **Exercise development requirements**
 
-- Refactor module 2 project [**here**](https://beta.adalab.es/project-promo-K-module-02-team-05/) with React
+- Refactor module 2 project [**here**](https://beta.adalab.es/project-promo-K-module-02-team-05/) with [<img src = "https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black">](https://es.reactjs.org/).
 
 ## **Folder Structure**
 
