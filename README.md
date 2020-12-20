@@ -1,70 +1,232 @@
-# Getting Started with Create React App
+![Profile Cards Refactor](https://mythbank.com/wp-content/uploads/2019/10/dc-rebirth-banner.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **ProfileCardsRefactor**
 
-## Available Scripts
+Module 3 Team Project of the Adalab Digital Frontend Development Bootcamp.
 
-In the project directory, you can run:
+This is a profile cards app developed with `HTML5` , `CSS3` and `React`.
 
-### `npm start`
+## **Authors**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This website has been developed by Refactorizadas Team:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Emma Cebada:** [@Emma-cebada](https://github.com/Emma-cebada)
+- **Ana Guerra:** [@anaguerraabaroa](https://github.com/anaguerraabaroa)
+- **Celia Martín:** [@Celiamf](https://github.com/Celiamf)
+- **Belén Matilla:** [@BMatillaVaras](https://github.com/BMatillaVaras)
+- **Lissandra Méndez:** [@lissms](https://github.com/lissms)
 
-### `npm test`
+## **Quick start guide**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instructions to start this project:
 
-### `npm run build`
+### **Pre-requirements**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is run with React. Start guide [**here**](https://github.com/facebook/create-react-app).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Installation**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once React has been installed:
 
-### `npm run eject`
+1. Clone repository
+2. Open a terminal
+3. Run `npm install` on the terminal to install local dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### **Run project**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run `npm start` on the terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This command has to be run everytime the project is started in order to:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Open the project on the browser using a local server.
+2. Refresh browser everytime files contained in `/src` folder are updated.
+3. Compiled files contained in `/src` folder and copy them in `/public` folder in order to be prepared for production environment.
 
-## Learn More
+### **Deployment**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Run these commands to update changes on the project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git add -A
+git commit -m "Message commit"
+git push
+```
 
-### Code Splitting
+2. Run `npm run build` to create `/docs` folder and the production environment version.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Run again commands on step 1 to update changes on the project.
 
-### Analyzing the Bundle Size
+4. Project **[URL](https://anaguerraabaroa.github.io/ProfileCardsRefactor/#/)** is also available on GitHub Pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## **Development technologies**
 
-### Making a Progressive Web App
+- [**`HTML5`**](https://html.spec.whatwg.org/)
+- [**`CSS3`**](https://www.w3.org/Style/CSS/)
+- [**`React`**](https://es.reactjs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## **Exercise development requirements**
 
-### Advanced Configuration
+- Refactor module 2 project [**here**](https://beta.adalab.es/project-promo-K-module-02-team-05/) with React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **Folder Structure**
 
-### Deployment
+```
+ProfileCardsRefactor
+├── docs
+├── node_modules
+├── public
+├── src
+│   ├── components
+│   │   ├── Create
+│   │   │   ├── CardImage.js
+│   │   │   ├── Design.js
+│   │   │   ├── Fill.js
+│   │   │   ├── FormItem.js
+│   │   │   ├── Info.js
+│   │   │   ├── Palettes.js
+│   │   │   └── Share.js
+│   │   ├── App.js
+│   │   ├── CardGenerator.js
+│   │   ├── CardIcons.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── Landing.js
+│   │   ├── Loading.js
+│   │   ├── Main.js
+│   │   ├── MainSectionCard.js
+│   │   └── MainSectionCreate.js
+│   ├── images
+│   │    ├── batman_loading.gif
+│   │    ├── Flash.png
+│   │    ├── header_logo.png
+│   │    ├── landing_desktop.jpg
+│   │    ├── landing_mobile.jpg
+│   │    ├── landing_tablet.jpg
+│   │    ├── logoStarCodingLabs-Blue.svg
+│   │    ├── profile_cards_desktop.jpg
+│   │    ├── profile_cards_mobile.jpg
+│   │    ├── profile_cards_tablet.jpg
+│   │    └── tarjetas-molonas.svg
+│   ├── services
+│   │    └── fetch.js
+│   ├── stylesheets
+│   │   ├── core
+│   │   │   ├── _reset.scss
+│   │   │   └── _variables.scss
+│   │   ├── layout
+│   │   │   ├── _cardIcons.scss
+│   │   │   ├── _design.scss
+│   │   │   ├── _fill.scss
+│   │   │   ├── _footer.scss
+│   │   │   ├── _header.scss
+│   │   │   ├── _info.scss
+│   │   │   ├── _landing.scss
+│   │   │   ├── _loading.scss
+│   │   │   ├── _main.scss
+│   │   │   ├── _mainSectionCard.scss
+│   │   │   ├── _mainSectionCreate.scss
+│   │   │   ├── _share.scss
+│   │   │   └──
+│   │   ├── pages
+│   │   │   └── _index.scss
+│   │   └── App.scss
+│   ├── index.js
+│   └── reportWebVitals.js
+├── .gitignore
+├── debug.log
+├── package-lock.json
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
 
-### `npm run build` fails to minify
+## **Components and functions**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **App component**
+
+- **Render landing and card generator components:** class App extends React.Component
+
+### **Header component**
+
+- **Render header**: class Header extends React.Component
+
+### **Landing component**
+
+- **Render landing:** class Landing extends React.Component
+
+### **Footer component**
+
+- **Render footer:** class Footer extends React.Component
+
+### **CardGenerator component**
+
+- **Handle app:** class CardGenerator extends React.Component
+- **Handle form fields data**: handleInputChange
+- **Handle reset form filters:**: handleReset
+- **Handle api request and response to share card on Twitter:** sendRequest
+- **Handle set data in LocalStorage and lifecycle:** setLocalStorage(), componentDidUpdate()
+- **Handle get data from LocalStorage and lifecycle:** getLocalStorage(), componentDidMount()
+
+### **Main component**
+
+- **Render MainSectionCard and MainSectionCreate components**: class Main extends React.Component
+
+### **MainSectionCreate component**
+
+- **Render Design, Fill and Share components:** class MainSectionCreate extends React.Component
+
+### **Info component**
+
+- **Render collapsables header:** class Info extends React.Component
+
+### **Design component**
+
+- **Event listener collapsable**: collapseDesign()
+- **Render palettes components:** class Design extends React.Component
+
+### **Palettes component**
+
+- **Event listener selected palette**: handleChange
+- **Render colour palettes:** class Palettes extends React.Component
+
+### **Fill component**
+
+- **Event listener collapsable**: collapseFill()
+- **Render form inputs components:** class Fill extends React.Component
+
+### **FormItem component**
+
+- **Event listener inputs value**: handleChange
+- **Render form inputs:** class FormItem extends React.Component
+
+### **CardImage component**
+
+- **Event listener image upload:** fakeClick()
+- **Handle get image:** handleCardImg()
+- **Render image on the profile card:** writeImage()
+- **Render CardImage component:** class CardImage extends React.Component
+
+### **Share component**
+
+- **Event listener collapsable**: collapseShare()
+- **Event listener create card link**: createCard()
+- **Render share component:** class Share extends React.Component
+
+### **Loading component**
+
+- **Render loading between api request and response:** const Loading
+
+### **MainSectionCard component**
+
+- **Event listener reset button**: handleReset
+- **Render profile card and social media navigation menu components:** class MainSectionCard extends React.Component
+
+### **CardIcons component**
+
+- **Render social media navigation menu data on profile card:** class CardIcons extends React.Component
+
+## **Result**
+
+![Mobile version](./src/images/landing_mobile.jpg) ![Tablet version](./src/images/landing_tablet.jpg) ![Desktop version](./src/images/landing_desktop.jpg)
+
+![Mobile version](./src/images/profile_cards_mobile.jpg) ![Tablet version](./src/images/profile_cards_tablet.jpg) ![Desktop version](./src/images/profile_cards_desktop.jpg)
