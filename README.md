@@ -126,6 +126,7 @@ ProfileCardsRefactor
 │   └── reportWebVitals.js
 ├── .gitignore
 ├── debug.log
+├── LICENSE
 ├── package-lock.json
 ├── package.json
 └── README.md
@@ -222,3 +223,7 @@ ProfileCardsRefactor
 ![Mobile version](./src/images/landing_mobile.jpg) ![Tablet version](./src/images/landing_tablet.jpg) ![Desktop version](./src/images/landing_desktop.jpg)
 
 ![Mobile version](./src/images/profile_cards_mobile.jpg) ![Tablet version](./src/images/profile_cards_tablet.jpg) ![Desktop version](./src/images/profile_cards_desktop.jpg)
+
+## **License**
+
+This project is licensed under [**MIT License**](https://spdx.org/licenses/MIT.html).
