@@ -218,7 +218,7 @@ ProfileCardsRefactor
 
 - **Render social media navigation menu data on profile card:** class CardIcons extends React.Component
 
-## **Result**
+## **Project captures**
 
 ![Mobile version](./src/images/landing_mobile.jpg) ![Tablet version](./src/images/landing_tablet.jpg) ![Desktop version](./src/images/landing_desktop.jpg)
 
