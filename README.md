@@ -8,7 +8,7 @@ This is a profile cards app developed with [<img src = "https://img.shields.io/b
 
 ## **Authors**
 
-This website has been developed by Refactorizadas Team:
+This project has been developed by Refactorizadas Team:
 
 - **Emma Cebada:** [@Emma-cebada](https://github.com/Emma-cebada)
 - **Ana Guerra:** [@anaguerraabaroa](https://github.com/anaguerraabaroa)
@@ -56,7 +56,7 @@ git push
 
 4. Project **[URL](https://anaguerraabaroa.github.io/ProfileCardsRefactor/#/)** is also available on GitHub Pages.
 
-## **Exercise features**
+## **Project features**
 
 - Refactor module 2 project [**here**](https://beta.adalab.es/project-promo-K-module-02-team-05/) with [<img src = "https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black">](https://es.reactjs.org/).
 
