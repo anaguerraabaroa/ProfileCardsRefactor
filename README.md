@@ -1,6 +1,6 @@
 ![Profile Cards Refactor](https://mythbank.com/wp-content/uploads/2019/10/dc-rebirth-banner.jpg)
 
-# **ProfileCardsRefactor**
+# **Profile Cards Refactor**
 
 Module 3 Team Project of the Adalab Digital Frontend Development Bootcamp.
 
@@ -54,7 +54,7 @@ git push
 
 3. Run again commands on step 1 to update changes on the project.
 
-4. Project **[URL](https://anaguerraabaroa.github.io/ProfileCardsRefactor/#/)** is also available on GitHub Pages.
+4. Project **[URL](https://anaguerraabaroa.github.io/profile-cards-refactor/#/)** is also available on GitHub Pages.
 
 ## **Project features**
 
