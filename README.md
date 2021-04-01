@@ -1,4 +1,6 @@
-![Profile Cards Refactor](https://mythbank.com/wp-content/uploads/2019/10/dc-rebirth-banner.jpg)
+![Mobile version](./src/images/landing_mobile.png) ![Tablet version](./src/images/landing_tablet.png) ![Desktop version](./src/images/landing_desktop.png)
+
+![Mobile version](./src/images/profile_cards_mobile.png) ![Tablet version](./src/images/profile_cards_tablet.png) ![Desktop version](./src/images/profile_cards_desktop.png)
 
 # **Profile Cards Refactor**
 
@@ -91,13 +93,13 @@ Profile Cards Refactor
 │   │    ├── batman_loading.gif
 │   │    ├── Flash.png
 │   │    ├── header_logo.png
-│   │    ├── landing_desktop.jpg
-│   │    ├── landing_mobile.jpg
-│   │    ├── landing_tablet.jpg
+│   │    ├── landing_desktop.png
+│   │    ├── landing_mobile.png
+│   │    ├── landing_tablet.png
 │   │    ├── logoStarCodingLabs-Blue.svg
-│   │    ├── profile_cards_desktop.jpg
-│   │    ├── profile_cards_mobile.jpg
-│   │    ├── profile_cards_tablet.jpg
+│   │    ├── profile_cards_desktop.png
+│   │    ├── profile_cards_mobile.png
+│   │    ├── profile_cards_tablet.png
 │   │    └── tarjetas-molonas.svg
 │   ├── services
 │   │    └── fetch.js
@@ -217,12 +219,6 @@ Profile Cards Refactor
 ### **CardIcons component**
 
 - **Render social media navigation menu data on profile card:** class CardIcons extends React.Component
-
-## **Screenshots**
-
-![Mobile version](./src/images/landing_mobile.jpg) ![Tablet version](./src/images/landing_tablet.jpg) ![Desktop version](./src/images/landing_desktop.jpg)
-
-![Mobile version](./src/images/profile_cards_mobile.jpg) ![Tablet version](./src/images/profile_cards_tablet.jpg) ![Desktop version](./src/images/profile_cards_desktop.jpg)
 
 ## **License**
 
