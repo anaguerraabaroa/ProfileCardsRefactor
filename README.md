@@ -63,7 +63,7 @@ git push
 ## **Folder Structure**
 
 ```
-ProfileCardsRefactor
+Profile Cards Refactor
 ├── docs
 ├── node_modules
 ├── public
