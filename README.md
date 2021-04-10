@@ -47,7 +47,7 @@ npm start
 
 ## **Project features**
 
-- Refactor [<img src = "https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">](https://www.ecma-international.org/ecma-262/)  [**module 2 project**](https://beta.adalab.es/project-promo-K-module-02-team-05/) with [<img src = "https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black">](https://es.reactjs.org/)
+- Refactor [<img src = "https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">](https://www.ecma-international.org/ecma-262/)  [**module 2 STAR Coding Labs Team project**](https://beta.adalab.es/project-promo-K-module-02-team-05/) with [<img src = "https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black">](https://es.reactjs.org/)
 
 ## **Usage**
 
